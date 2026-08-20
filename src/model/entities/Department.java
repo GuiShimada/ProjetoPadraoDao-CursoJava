@@ -4,10 +4,11 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Department implements Serializable {
-    private int id;
-    private String name;
 
     public static final long serialVersionUID = 1L;
+
+    private Integer id;
+    private String name;
 
     public Department() {}
 
